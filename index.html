@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Mixtin - Fitness</title>
+
+    <!-- Bootstrap -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+  <!-- HEADER -->
+	<nav class="navbar navbar-custom navbar-inverse">
+  	    <div class="container-fluid container-fluid-long">
+		<div class="container container-not-stupid">
+           	<div class="row">
+            	<div class="col-xs-12">
+    	    			<!-- Brand and toggle get grouped for better mobile display -->
+    	    				<div class="navbar-header">
+     	    					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+       	        					<span class="sr-only">Toggle navigation</span>
+       	            				<span class="icon-bar"></span>
+       	            				<span class="icon-bar"></span>
+                  					<span class="icon-bar"></span>
+                				</button>
+                				<a class="navbar-brand no-padding vertical-center" id="mixtin" href="http://mixtin.local/"><span id="mixtinLogo"><img src="/css/icons/Logo-hsl-350-100-50.png" width="28px"></span>Mixtin</a>
+            				</div>
+
+    					<!-- Collect the nav links, forms, and other content for toggling -->
+    						<div class="collapse navbar-collapse no-padding" id="bs-example-navbar-collapse-1">
+								<ul class="nav navbar-nav">
+        							<li class="active"><a href="http://mixtin.local">Fitness <span class="sr-only">(current)</span></a></li>
+       							<li><a href="/gaming.html">Gaming</a></li>
+									<li><a href="/music.html">Music</a></li>
+									<li><a href="/nutrition.html">Nutrition</a></li>
+									<li><a href="/technology.html">Technology</a></li>
+     							</ul>
+        						<ul class="nav navbar-nav navbar-right no-margin-right">
+										<li>
+											<!--<button class="btn btn-custom navbar-btn white no-decoration" role="button" onclick="portfolioLink()">Portfolio</button>-->
+											<p style="margin-bottom:0"><a href="http://ajarana.com" target="_blank"><button class="btn btn-custom navbar-btn white no-decoration" role="button"">Portfolio</button></a></p>
+										</li>
+        						</ul>
+      						</div><!-- /.navbar-collapse -->
+    					</div><!-- col-xs-10 -->
+					</div><!-- row -->
+    			</div><!-- /.container-fluid -->
+				</div>
+  			</nav>
+	<div class="container-fluid container-fluid-long">	
+	<div class="container container-not-stupid"> <!-- forum headers-->
+      		<div class="col-xs-12">
+				<div class="row vertical-center position-relative">
+					<div class="col-lg-12 no-padding vertical-center">
+						<a class="plain-hyperlink" href="http://mixtin.local"><h3 class="text-inline page-title">Fitness</h3></a>
+						<ul class="nav nav-pills tab vertical-center">
+							<li>
+								<a class="sort tab" data-sort="order:asc">
+									<h4>New</h4>
+								</a>
+							</li>
+							<li>
+								<a class="sort tab" data-sort="order:desc">
+									<h4>Old</h4>
+								</a>
+							</li>
+							<li>
+								<a class="sort tab" data-sort="random">
+									<h4>Mix</h4>
+								</a>
+							</li>
+						</ul>
+						<div class="tab-content">
+							<div id="hot" class="tab-pane fade in active">
+							</div>
+							<div id="lukewarm" class="tab-pane fade">
+							</div>
+							<div id="new" class="tab-pane fade">
+							</div>
+							<div id="top" class="tab-pane fade">
+							</div>
+						</div>
+					</div> <!-- end col-xs-6 -->	
+				</div> <!-- end row -->
+			</div> <!-- end col-xs-8 well -->
+			<div class="col-xs-12 large-pad-bottom">
+				<div class="row gallery wide-negative-margins">
+
+					<div class="mix image-container col-xs-12 col-sm-6 col-md-4 position-relative tall" data-order="1">
+						<div class="position-absolute side-padding">
+						<img class="image" src="/css/images/fitness/runner.jpg">
+						<div class="image-footer side-padding">
+							<div id="footer-gradient">
+							<div id="footer-position">
+							<div class="image-title-container">
+								<a class="image-title noSelect" href="http://www.runnersworld.com/workouts/5-core-exercises-that-help-you-finish-strong" target="_blank">5 Core Exercises That Help You Finish Strong</a>
+							</div>
+							<div class="stats-container position-relative">
+								<div class="inline-div position-bottom-right" id="comments">
+									<div class="transparent-icon-holder">
+										<div class="transparent-icon-background"></div>
+										<img class="icon" src="/css/icons/clock92.svg">
+									</div>
+									<h5 class="gray-white theTime">2h ago</h5>
+								</div>
+							</div>
+							</div>
+							</div>
+						</div>
+						</div>
+					</div>
+
+					<div class="mix image-container col-xs-12 col-sm-6 col-md-4 position-relative tall" data-order="2">
+						<div class="position-absolute side-padding">
+						<img class="image" src="/css/images/fitness/rock-climbing.jpg">
+						<div class="image-footer side-padding">
+							<div id="footer-gradient">
+							<div id="footer-position">
+							<div class="image-title-container">
+								<a class="image-title noSelect" href="http://www.webmd.com/fitness-exercise/a-z/rock-climbing" target="_blank">Rock Climbing: An Intense, Challenging Workout</a>
+							</div>
+							<div class="stats-container position-relative">
+								<div class="inline-div position-bottom-right" id="comments">
+									<div class="transparent-icon-holder">
+										<div class="transparent-icon-background"></div>
+										<img class="icon" src="/css/icons/clock92.svg">
+									</div>
+									<h5 class="gray-white theTime">2h ago</h5>
+								</div>
+							</div>
+							</div>
+							</div>
+						</div>
+						</div>
+					</div>
+
+					<div class="mix image-container col-xs-12 col-sm-6 col-md-4 position-relative tall" data-order="3">
+						<div class="position-absolute side-padding">
+						<img class="image" src="/css/images/fitness/beach.jpg">
+						<div class="image-footer side-padding">
+							<div id="footer-gradient">
+							<div id="footer-position">
+							<div class="image-title-container">
+								<a class="image-title noSelect" href="http://www.webmd.com/fitness-exercise/features/move-your-gym-surfside#1" target="_blank">Bring Your Gym Surfside</a>
+							</div>
+							<div class="stats-container position-relative">
+								<div class="inline-div position-bottom-right" id="comments">
+									<div class="transparent-icon-holder">
+										<div class="transparent-icon-background"></div>
+										<img class="icon" src="/css/icons/clock92.svg">
+									</div>
+									<h5 class="gray-white theTime">2h ago</h5>
+								</div>
+							</div>
+							</div>
+							</div>
+						</div>
+						</div>
+					</div>
+
+					<div class="mix image-container col-xs-12 col-sm-6 col-md-4 position-relative tall" data-order="4">
+						<div class="position-absolute side-padding">
+						<img class="image" src="/css/images/fitness/snowboarding3.jpg">
+						<div class="image-footer side-padding">
+							<div id="footer-gradient">
+							<div id="footer-position">
+							<div class="image-title-container">
+								<a class="image-title noSelect" href="http://www.webmd.com/fitness-exercise/features/5-best-winter-sports-to-try#1" target="_blank">5 Best Winter Sports to Try</a>
+							</div>
+							<div class="stats-container position-relative">
+								<div class="inline-div position-bottom-right" id="comments">
+									<div class="transparent-icon-holder">
+										<div class="transparent-icon-background"></div>
+										<img class="icon" src="/css/icons/clock92.svg">
+									</div>
+									<h5 class="gray-white theTime">2h ago</h5>
+								</div>
+							</div>
+							</div>
+							</div>
+						</div>
+						</div>
+					</div>
+
+					<div class="mix image-container col-xs-12 col-sm-6 col-md-4 position-relative tall" data-order="5">
+						<div class="position-absolute side-padding">
+						<img class="image" src="/css/images/fitness/gymnastics4.jpg">
+						<div class="image-footer side-padding">
+							<div id="footer-gradient">
+							<div id="footer-position">
+							<div class="image-title-container">
+								<a class="image-title noSelect" href="https://breakingmuscle.com/learn/4-simple-gymnastics-drills-for-strength-and-mobility" target="_blank">4 Simple Gymnastics Drills for Strength and Mobility</a>
+							</div>
+							<div class="stats-container position-relative">
+								<div class="inline-div position-bottom-right" id="comments">
+									<div class="transparent-icon-holder">
+										<div class="transparent-icon-background"></div>
+										<img class="icon" src="/css/icons/clock92.svg">
+									</div>
+									<h5 class="gray-white theTime">2h ago</h5>
+								</div>
+							</div>
+							</div>
+							</div>
+						</div>
+						</div>
+					</div>
+
+					<div class="mix image-container col-xs-12 col-sm-6 col-md-4 position-relative tall" data-order="6">
+						<div class="position-absolute side-padding">
+						<img class="image" src="/css/images/fitness/swimming4.jpg">
+						<div class="image-footer side-padding">
+							<div id="footer-gradient">
+							<div id="footer-position">
+							<div class="image-title-container">
+								<a class="image-title noSelect" href="http://www.webmd.com/fitness-exercise/a-z/swimming-for-fitness" target="_blank">Swimming for Fitness: What to Know</a>
+							</div>
+							<div class="stats-container position-relative">
+								<div class="inline-div position-bottom-right" id="comments">
+									<div class="transparent-icon-holder">
+										<div class="transparent-icon-background"></div>
+										<img class="icon" src="/css/icons/clock92.svg">
+									</div>
+									<h5 class="gray-white theTime">2h ago</h5>
+								</div>
+							</div>
+							</div>
+							</div>
+						</div>
+						</div>
+					</div>
+
+					<div class="mix image-container col-xs-12 col-sm-6 col-md-4 position-relative tall" data-order="7">
+						<div class="position-absolute side-padding">
+						<img class="image" src="/css/images/fitness/bobsledding.jpg">
+						<div class="image-footer side-padding">
+							<div id="footer-gradient">
+							<div id="footer-position">
+							<div class="image-title-container">
+								<a class="image-title noSelect" href="http://well.blogs.nytimes.com/2014/02/05/the-workout-training-to-bobsled/?_r=0" target="_blank">The Workout: Training to Bobsled</a>
+							</div>
+							<div class="stats-container position-relative">
+								<div class="inline-div position-bottom-right" id="comments">
+									<div class="transparent-icon-holder">
+										<div class="transparent-icon-background"></div>
+										<img class="icon" src="/css/icons/clock92.svg">
+									</div>
+									<h5 class="gray-white theTime">2h ago</h5>
+								</div>
+							</div>
+							</div>
+							</div>
+						</div>
+						</div>
+					</div>
+
+					<div class="mix image-container col-xs-12 col-sm-6 col-md-4 position-relative tall" data-order="8">
+						<div class="position-absolute side-padding">
+						<img class="image" src="/css/images/fitness/parachute.jpg">
+						<div class="image-footer side-padding">
+							<div id="footer-gradient">
+							<div id="footer-position">
+							<div class="image-title-container">
+								<a class="image-title noSelect" href="http://www.healthfitnessrevolution.com/health-benefits-skydiving/" target="_blank">The Health Benefits of Skydiving</a>
+							</div>
+							<div class="stats-container position-relative">
+								<div class="inline-div position-bottom-right" id="comments">
+									<div class="transparent-icon-holder">
+										<div class="transparent-icon-background"></div>
+										<img class="icon" src="/css/icons/clock92.svg">
+									</div>
+									<h5 class="gray-white theTime">2h ago</h5>
+								</div>
+							</div>
+							</div>
+							</div>
+						</div>
+						</div>
+					</div>
+
+					<div class="mix image-container col-xs-12 col-sm-6 col-md-4 position-relative tall" data-order="9">
+						<div class="position-absolute side-padding">
+						<img class="image" src="/css/images/fitness/track.jpg">
+						<div class="image-footer side-padding">
+							<div id="footer-gradient">
+							<div id="footer-position">
+							<div class="image-title-container">
+								<a class="image-title noSelect" href="http://www.webmd.com/fitness-exercise/features/high-intensity-workouts-to-burn-calories#1" target="_blank">High-Intensity Workouts: Burn Calories Better, Longer</a>
+							</div>
+							<div class="stats-container position-relative">
+								<div class="inline-div position-bottom-right" id="comments">
+									<div class="transparent-icon-holder">
+										<div class="transparent-icon-background"></div>
+										<img class="icon" src="/css/icons/clock92.svg">
+									</div>
+									<h5 class="gray-white theTime">2h ago</h5>
+								</div>
+							</div>
+							</div>
+							</div>
+						</div>
+						</div>
+					</div>		
+				</div>
+			</div>
+
+	</div> <!-- end container-fluid-left-sidebar -->
+
+	<div class="row">
+		<footer class="footer">
+    		<div class="container position-relative">
+        		<div class="row everything-centered">
+	    				<a href="about.html">About</a> 
+						<div class="separator"></div>
+	    	  			<a href="about.html#contact-portrait">Contact</a>
+	  			</div>
+	  			<!--<div class="social-media-container">
+	    	  		<img src="/css/icons/fb2.svg" width="24px" height="24px">
+	    	  		<img src="/css/icons/Twitter_Social_Icon_Rounded_Square_Color.svg" width="24px" height="24px">
+        	  	  <img src="/css/icons/YouTube-social-square-red.svg" width="24px" height="24px">
+	  			</div>-->
+     		</div>
+		</footer>
+	</div>
+
+	</div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+	 <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+	 <script src="http://cdn.jsdelivr.net/jquery.mixitup/latest/jquery.mixitup.min.js"></script>
+	 <script type="text/javascript" src="js/mixtin.js"></script>
+	 <script type="text/javascript" src="js/mixtinTime1.js"></script>
+	
+  </body>
+</html>

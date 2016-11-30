@@ -1,0 +1,134 @@
+@gray-base:              #000;
+@gray-darker:            lighten(@gray-base, 13.5%); // #222
+@gray-dark:              lighten(@gray-base, 20%);   // #333
+@gray:                   lighten(@gray-base, 33.5%); // #555
+@gray-light:             lighten(@gray-base, 60%); // #999
+@gray-lighter:           lighten(@gray-base, 93.5%); // #eee
+
+// Single primary color that all mixins use.
+@primary:        hsl(354, 100%, 50%);
+ 
+// Primary Variants -
+@primaryLight:   hsl(hue(@primary), 100%, 70%);
+@primaryDark:    hsl(hue(@primary), 100%, 44%);
+@primaryFaded:   hsl(hue(@primary), 60%, 65%);
+ 
+// 180degree Variants
+@variant:        spin((@primary), 215);
+@variantLight:   hsl(hue(@variant), 100%, 70%);
+@variantDark:    hsl(hue(@variant), 60%, 40%);
+@variantFaded:   hsl(hue(@variant), 60%, 65%);
+ 
+// 90degree Variants
+@corner:         spin((@primary), 70);
+@cornerLight:    hsl(hue(@corner), 100%, 70%);
+@cornerDark:     hsl(hue(@corner), 60%, 40%);
+@cornerFaded:    hsl(hue(@corner), 60%, 65%);
+
+.gray-darker {
+	color: #4c4c4c;
+}
+
+.gray-dark {
+	color: #555;
+}
+
+.gray {
+	color: #777;
+}
+
+.gray-white {
+	color: #f4f4f4;
+}
+
+.gray-light {
+	color: @gray-light;
+}
+
+.white {
+	color: white;
+}
+
+.primary-color {
+	color: @primary;
+}
+.nav-pills > li > a.primary-background, .primary-background {
+	background-color: @primary;
+}
+
+.primary-color-light {
+	color: @primaryLight;
+}
+.nav-pills > li.active > a.primary-background-light {
+	background-color: @primaryLight;
+}
+
+.primary-color-dark {
+	color: @primaryDark;
+}
+.nav-pills > li.active > a.primary-background-dark {
+	background-color: @primaryDark;
+}
+
+.primary-color-faded {
+	color: @primaryFaded;
+}
+.nav-pills > li.active > a.primary-background-faded {
+	background-color: @primaryFaded;
+}
+
+.variant-color {
+	color: @variant;
+}
+.nav-pills > li.active > a.variant-background, .variant-background {
+	background-color: @variant;
+}
+
+.variant-color-light {
+	color: @variantLight;
+}
+.nav-pills > li.active > a.variant-background-light {
+	background-color: @variantLight;
+}
+
+.variant-color-dark {
+	color: @variantDark;
+}
+.nav-pills > li.active > a.variant-background-dark {
+	background-color: @variantDark;
+}
+
+.variant-color-faded {
+	color: @variantFaded;
+}
+.nav-pills > li.active > a.variant-background-faded {
+	background-color: @variantFaded;
+}
+
+.corner-color {
+	color: @corner;
+}
+.nav-pills > li.active > a.corner-background {
+	background-color: @corner;
+}
+
+.corner-color-light {
+	color: @cornerLight;
+}
+.nav-pills > li.active > a.corner-background-light {
+	background-color: @cornerLight;
+}
+
+.corner-color-dark {
+	color: @cornerDark;
+}
+.nav-pills > li.active > a.corner-background-dark {
+	background-color: @cornerDark;
+}
+
+.corner-color-faded {
+	color: @cornerFaded;
+}
+.nav-pills > li.active > a.corner-background-faded {
+	background-color: @cornerFaded;
+}
