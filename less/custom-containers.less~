@@ -259,19 +259,19 @@
 
 #about-portrait {
 	margin-top: 30px;
-	background:url(/css/images/about/painting.jpg); 
+	background:url(//ajarana.github.io/mixtin/css/images/about/painting.jpg); 
 	background-position: 50% 50%; 
 	height: 300px;
 }
 
 #contact-portrait {
-	background:url(/css/images/about/painting3.jpg); 
+	background:url(//ajarana.github.io/mixtin/css/images/about/painting3.jpg); 
 	background-position: 50% 60%; 
 	height: 300px;
 }
 
 #credits-portrait {
-	background:url(/css/images/about/painting4.jpg); 
+	background:url(//ajarana.github.io/mixtin/css/images/about/painting4.jpg); 
 	background-position: 50% 60%; 
 	height: 300px;
 }
@@ -395,6 +395,7 @@ ul.nav-pills > li > a.sort:hover {
 	}
 	.nav.navbar-nav > li > a, .nav.navbar-nav > li > p{padding-left: 30px}
 	.btn {width: 100%;}
+	.page-title {margin-right: 25px;}
 }
 
 @media (min-width: 768px) {
