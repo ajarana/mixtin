@@ -320,9 +320,9 @@
 		<footer class="footer">
     		<div class="container position-relative">
         		<div class="row everything-centered">
-	    				<a href="//ajarana.github.io/mixtin/about.html">About</a> 
+	    				<a href="//ajarana.github.io/mixtin/about">About</a> 
 						<div class="separator"></div>
-	    	  			<a href="//ajarana.github.io/mixtin/about.html#contact-portrait">Contact</a>
+	    	  			<a href="//ajarana.github.io/mixtin/about#contact-portrait">Contact</a>
 	  			</div>
 	  			<!--<div class="social-media-container">
 	    	  		<img src="/css/icons/fb2.svg" width="24px" height="24px">
