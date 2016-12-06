@@ -14,15 +14,11 @@
 }
 
 .tall {
-	height: 650px;
+	padding-bottom: 30px;
 }
 
-@media (max-width: 992px) {
-	.tall {height: 800px;}
-}
-
-@media (max-width: 768px) {
-	.tall {height: 1100px;}
+@media screen and (max-width: 768px) {
+	.tall {padding-bottom: 120px;}
 }
 
 .image-container {
@@ -39,6 +35,7 @@
 
 .image {
 	width: 100%;
+	flex: none;
 }
 
 .no-decoration, .no-decoration:hover, .no-decoration:active, .no-decoration:visited, .no-decoration:focus {
@@ -115,10 +112,27 @@
    position: relative;
 }
 
-.position-absolute {
-	position: absolute;
+.position-image {
+	position: relative;
 	top: 0;
 	left: 0;
+	height: 470px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
+}
+
+@media (max-width: 1200px) {
+	.position-image {height: 380px}
+}
+
+@media (max-width: 991px) {
+	.position-image {height: 440px}
+}
+
+@media (max-width: 767px) {
+	.position-image {height: auto;}
 }
 
 .position-right {
